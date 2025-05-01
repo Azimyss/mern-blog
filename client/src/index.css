@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Дополнительные настройки и переопределения */
+@layer base {
+  html {
+    font-family: 'Inter var', ui-sans-serif, system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-50;
+  }
+
+  h1 {
+    @apply text-3xl font-bold text-gray-900;
+  }
+
+  h2 {
+    @apply text-2xl font-bold text-gray-800;
+  }
+
+  h3 {
+    @apply text-xl font-bold text-gray-800;
+  }
+}
